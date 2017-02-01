@@ -1,0 +1,35 @@
+body {
+    padding-top: 50px;
+}
+.header1 {
+	width: 66%;
+	margin-left: 0px;
+}
+.div_num1 {
+	border: 2px solid #D3D3D3;
+	padding: 4px;
+	border-radius: 5px;
+	height:312px;
+	width:312px;
+	float: left;
+}
+.pic1 {
+	height:300px;
+	width:300px;
+}
+.table_1 {
+	border: 1px solid #D3D3D3;
+	height:250px;
+	width:400px;
+	border-collapse: separate;
+	border-radius: 5px;
+	float: right;
+	margin-right: 400px;
+}
+.heading {
+	background-color: #D3D3D3;
+	padding-left: 10px;
+}
+.data1 {
+	padding-left: 10px;
+}

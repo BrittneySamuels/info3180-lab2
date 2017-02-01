@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1 class="profile-header">Profile</h1>
+<hr class="header1">
+<div class="div_num1">
+<img src= " {{ url_for('static', filename='pic.jpg') }} " class = "pic1">
+</div>
+<div>
+<table class="table_1">
+<tr>
+<th class="heading">Brittney Samuels</th>
+</tr>
+<tr>
+<td class="data1">Todays's date is {{ date }}<hr>
+<b>Username:</b> Britts1<br>
+<b>ID Number:</b> 620079487<br>
+<b>Age:</b> 21<br>
+<b>Gender:</b> Female<br><hr>
+I am the one.</td>
+</tr>
+</table>
+</div>
+
+{% endblock %}
